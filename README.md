@@ -112,3 +112,8 @@ AWS_REGION = us-east-1
 AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
 ECR_REPOSITORY_NAME = simple-app
+
+## To commit changes directly from VS code into GitHub and not using terminal commands:
+1. select source control(Ctrl+Shift+G) on left side of VS code
+2. Commit
+3. Sync
