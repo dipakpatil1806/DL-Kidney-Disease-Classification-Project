@@ -1,0 +1,24 @@
+tensorflow==2.12.0
+pandas
+dvc
+mlflow==2.2.2
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2
+pyYAML
+tqdm
+ensure==1.0.2
+joblib
+types-pyYAMLscipy
+Flask
+Flask-Cors
+gdown #reading data from G-Drive
+-e . #want to install folder (here src folder) as local package
+#if __init__.py is present in folder (here __init__.py provided in every folder) it will install local packages with the help of setup.py
+
+#conda create -n env_name python=3.8 -y :--to create environment
+# activate env_name :--> to activate env
+
+
