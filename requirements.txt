@@ -14,6 +14,7 @@ joblib
 types-pyYAMLscipy
 Flask
 Flask-Cors
+python-box[all]~=7.0
 gdown #reading data from G-Drive
 -e . #want to install folder (here src folder) as local package
 #if __init__.py is present in folder (here __init__.py provided in every folder) it will install local packages with the help of setup.py

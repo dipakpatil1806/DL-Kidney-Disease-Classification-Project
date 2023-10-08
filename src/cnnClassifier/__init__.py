@@ -4,8 +4,7 @@ import os
 import sys
 import logging #to create custom logging on top of it
 
-logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
-# %(asctime)s : gives current stdtime of running your project
+logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"# %(asctime)s : gives current stdtime of running your project
 # %(levelname)s : which types of logs want to store (info log)
 # %(module)s : which module running this file 
 # %(message)s : prompt messeges or error messeges
